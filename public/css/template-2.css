@@ -315,14 +315,14 @@
 }
 
 .flex-item:first-of-type {
-  /* margin-right: 24px;
-  margin-bottom: 24px; */
+  margin-right: 24px;
+  margin-bottom: 24px;
   /* flex-basis: calc(50% - 24px); */
   /* flex-grow: 2; */
 }
 
 .flex-item:nth-of-type(2) {
-  /* margin-bottom: 24px; */
+  margin-bottom: 24px;
 }
 
 .flex-item:nth-of-type(3) {

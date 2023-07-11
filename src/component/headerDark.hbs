@@ -1,0 +1,15 @@
+<header class='header'>
+	{{#with header}}
+		<nav class='header_nav'>
+			{{> logoDark}}
+			{{> nav list=links}}
+		</nav>
+		<div class="header_info">
+			<div class="ad">
+				<span class="badge_ad">Ad</span>
+				{{ad.text}}: <a class="ad_url" href="{{ad.url}}">{{ad.url}}</a>
+			</div>
+			<div class="user_online">Users online: {{userOnline}}</div>
+		</div>
+	{{/with}}
+</header>
